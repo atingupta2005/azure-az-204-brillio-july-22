@@ -5,9 +5,6 @@
   - Working with the BLOB service
   - Using Azure Storage Explorer
   - Using Access Keys
-  - Azure Storage Accounts - Azure CLI
-  - AzCopy tool
-    - Refer - [AZCopy.md](AZCopy.md)
 
   - Azure Blob storage - .Net
   - Azure Blob properties and metadata

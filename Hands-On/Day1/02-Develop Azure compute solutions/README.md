@@ -4,7 +4,7 @@
   - Azure Web App - Linux App Service Plan
   - Azure Web App - Docker container
   - Azure Web Apps - App Service Logs
-    - Refer web app\Monitoring
+    - Refer web app \ Monitoring
       - App Service Logs
         - Enable different type logs
       - Log Streams
@@ -15,9 +15,6 @@
   - Azure Web App - Publishing from GitHub
     - While creating web app, enable continous deployment to publish directly from GitHub. Specify any ASP.Net Core project deployed on Github
     - Notice Sync button in Web App for manual sync or do changes in Gihub repo for auto deploy
-  - Azure Web App - Custom domains
-    - Web App\Custom Domain
-    - Click "+Add Custom Domain"
 
   - Azure Web App - SSL
     - Open Web App\TLS SSL Setting
@@ -48,8 +45,6 @@
   - Working with the BLOB service
   - Using Azure Storage Explorer
   - Using Access Keys
-  - Azure Storage Accounts - Azure CLI
-  - AzCopy tool
   - Azure Blob storage - .Net
   - Azure Blob properties and metadata
   - Shared Access Signatures

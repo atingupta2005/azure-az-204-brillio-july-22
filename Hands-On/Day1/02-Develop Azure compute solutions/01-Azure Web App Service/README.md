@@ -8,7 +8,7 @@
       - App Service Logs
         - Enable different type logs
       - Log Streams
-        - To view the realtime logs
+        - To view the real-time logs
         - Visit app on Browser and view logs in Log Stream
 
 
