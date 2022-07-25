@@ -1,0 +1,22 @@
+#r "Newtonsoft.Json"
+
+
+using System;
+using Newtonsoft.Json.Linq;
+
+public static void Run(JObject myQueueItem, ILogger log)
+{
+       Course coursebj=myQueueItem.ToObject<Course>();
+
+       log.LogInformation((coursebj.Id).ToString());
+       log.LogInformation(coursebj.Name);
+       log.LogInformation((coursebj.rating).ToString());
+
+}
+
+public class Course
+{
+    public int Id;
+    public string Name;
+    public double rating;
+}

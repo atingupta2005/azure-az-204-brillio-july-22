@@ -19,27 +19,15 @@
     - Web App/Custom Domain
     - Click "+Add Custom Domain"
 
-  - Azure Web App - SSL
-    - Open Web App/TLS SSL Setting
-    - Open Tab - "Private Key Certifiates"
-    - Click - "+ Create App Service Managed Certificate" and click Save
-    - Back on page, click "Bindings"
-    - Click "+ Add TLS/SSL Binding"
-      - TLS/SSL Type: IP Based SSL
-    - Visit Website using HTTPS and notice site is now secure
   - Azure Web App - CORS
     - Method of restring access to resources on a web when it is requested from another domain
-    - Create Visual Studio Project - "ASP.Net Core Empty"
-      - Refer 45-azure-web-app-cors-building-the-api
-        - API Publisher
-    - Create ASP.Net Project - "ASP.Net Core"
-    - Publish to Azure
-      - Refer 46-azure-web-app-cors-implementation
-        - Change the URL of API Web app in demo.html
-        - API Consumer
+    - Refer 45-azure-web-app-cors-building-the-api
+      - Publish to Azure and open /api/Course
+    - Refer 46-azure-web-app-cors-implementation
+      - Change the URL of API Web app in demo.html
       - Publish to Azure
     - Once publish is done:
-      - Take URL of Web App Consumer
+      - Take URL of Web App Consumer and open - /demo.html
       - Open Chrome/Developer Tools
       - Open the URL
       - Notice the error in Developer tools

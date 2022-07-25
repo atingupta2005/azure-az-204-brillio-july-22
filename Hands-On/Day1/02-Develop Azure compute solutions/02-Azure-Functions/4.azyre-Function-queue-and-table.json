@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "direction": "in",
+      "type": "queueTrigger",
+      "connection": "demotore4000_STORAGE",
+      "name": "queueitem",
+      "queueName": "appqueue"
+    },
+    {
+      "type": "table",
+      "name": "$return",
+      "tableName": "customer",
+      "connection": "demotore4000_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

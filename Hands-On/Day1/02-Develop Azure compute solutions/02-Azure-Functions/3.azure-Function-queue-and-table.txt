@@ -1,0 +1,21 @@
+#r "Newtonsoft.Json"
+
+
+using System;
+using Newtonsoft.Json.Linq;
+
+public static Course Run(JObject myQueueItem, ILogger log)
+{
+       Course courseobj= new Course();
+       courseobj.PartitionKey=myQueueItem["Id"].ToString();
+       courseobj.RowKey=myQueueItem["Name"].ToString();
+       courseobj.rating=myQueueItem["rating"].Value<double>();
+        return courseobj;
+}
+
+public class Course
+{
+    public string PartitionKey {get;set;}
+    public string RowKey {get;set;}
+    public double rating {get;set;}
+}
