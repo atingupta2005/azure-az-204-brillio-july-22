@@ -1,22 +1,32 @@
-*Finance*
-*Finance*/*
+**/*assessment*
+**/*.xlsx
+**/*assessment*
+*assessment*
 **/*Finance*
-**/*Finance*/*
 **/*.pyc
+**/*.pptx
 Recycled/*
 **/Recycled/*
+**/Future/*
+Future/*
+*Optional*
+**/*Optional*
+*Skip*
+**/*Skip*
+*Pending*
+**/*Pending*
 **/Debug
 **/debug
 **/Bin
 **/bin
 **/*.exe
-**/*.ipynb_checkpoints
+**Extra**
+**/**Extra**
 
 # Terraform Files and Folders
 .terraform
 *.tfstate
 *.tfstate.backup
-*.tfvars
 **/.terraform*
 **/.terraform
 **/.terraform.lock.hcl

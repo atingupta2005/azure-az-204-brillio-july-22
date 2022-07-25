@@ -1,5 +1,5 @@
 git checkout main
-git pull github-origin master
+git pull github-origin main
 del .gitignore
 copy .gitignore-github .gitignore
 git add *
