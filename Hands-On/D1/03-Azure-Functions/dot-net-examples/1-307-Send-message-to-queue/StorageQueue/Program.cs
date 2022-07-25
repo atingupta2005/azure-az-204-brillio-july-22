@@ -5,7 +5,7 @@ namespace StorageQueue
 {
     class Program
     {
-        private static string storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=appstore2000;AccountKey=8pBdEmCXm/Gv8iZ1LoC0+SZVkzWSq81C3/Quzr9rYk+xigMs4t5mBYC08cptZnR4UyLCHYLlamVfo8IV99GvbA==;EndpointSuffix=core.windows.net";
+        private static string storage_connection_string = "";
         private static string queue_name = "appqueue";
         static void Main(string[] args)
         {

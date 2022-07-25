@@ -12,8 +12,8 @@ namespace AzureFunction_QueueTrigger_Table
     public static class GetDetails
     {
         [FunctionName("QueueTable")]
-        [return: Table("Orders", Connection = "stoarge-connection")]
-        public static Order Run([QueueTrigger("appqueue", Connection = "stoarge-connection")] JObject myQueueItem,           
+        [return: Table("Orders", Connection = "storage_connection")]
+        public static Order Run([QueueTrigger("appqueue", Connection = "storage_connection")] JObject myQueueItem,           
             ILogger log)
         {
 
