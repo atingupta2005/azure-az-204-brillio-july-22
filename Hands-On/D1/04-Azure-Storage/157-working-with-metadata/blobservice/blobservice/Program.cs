@@ -7,7 +7,7 @@ namespace blobservice
 {
     class Program
     {
-        private static string _container_name = "demo";
+        private static string _container_name = "demo-atin";
         private static string _connection_string = "DefaultEndpointsProtocol=https;AccountName=saatin;AccountKey=CfbGjDha0VmJmFualL8ZBbf/CuAAxTIHtderBPmjNi2OVJMSJTp+EFq8NY4/j0TPBbV33gvrD4xgPDkc+JvNOQ==;EndpointSuffix=core.windows.net";
         private static string _blob_name = "Program.cs";
         private static string _location = "C:\\tmp\\Program.cs";

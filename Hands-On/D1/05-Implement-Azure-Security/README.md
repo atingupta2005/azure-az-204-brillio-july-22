@@ -18,4 +18,3 @@
   - 231-managed-identities-example-on-not-using-managed-identies
   - 232-managed-identities-using-identities
   - 233-azure-key-vault-secrets-using-managed-identity
-  - 234-managed-identity-getting-the-access-token

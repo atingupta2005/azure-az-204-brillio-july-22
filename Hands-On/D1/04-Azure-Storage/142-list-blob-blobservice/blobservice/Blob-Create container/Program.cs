@@ -8,7 +8,7 @@ namespace Blob_Create_container
     {
         // Ensure to change the connection string and the container name
         private static string blob_connection_string = "DefaultEndpointsProtocol=https;AccountName=saatin;AccountKey=CfbGjDha0VmJmFualL8ZBbf/CuAAxTIHtderBPmjNi2OVJMSJTp+EFq8NY4/j0TPBbV33gvrD4xgPDkc+JvNOQ==;EndpointSuffix=core.windows.net";
-        private static string container_name = "demo";
+        private static string container_name = "demo-atin";
           static void Main(string[] args)
         {
 
@@ -18,9 +18,9 @@ namespace Blob_Create_container
 
             foreach(BlobItem item in _container_client.GetBlobs())
             {
-                Console.WriteLine(item.Name);                
+                Console.WriteLine(item.Name);
             }
-            
+
             Console.ReadKey();
         }
     }
