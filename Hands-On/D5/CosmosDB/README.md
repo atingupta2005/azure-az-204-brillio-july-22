@@ -1,0 +1,12 @@
+## Cosmos DB
+- Quick primer on NoSQL Databases
+- Introduction to Cosmos DB
+- Azure Cosmos DB - SQL API
+- Partitioning in Azure Cosmos DB
+- Understanding the Item id property
+- Azure Cosmos DB - Time to Live
+- Azure Cosmos DB - Indexing
+- Use case scenario - Sending data to Cosmos DB
+- Replicating data globally
+- Consistency Levels
+- Consistency Level - Setting the level
