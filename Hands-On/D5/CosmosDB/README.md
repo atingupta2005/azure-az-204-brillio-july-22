@@ -5,7 +5,6 @@
 - Partitioning in Azure Cosmos DB
 - Understanding the Item id property
 - Azure Cosmos DB - Time to Live
-- Azure Cosmos DB - Indexing
 - Use case scenario - Sending data to Cosmos DB
 - Replicating data globally
 - Consistency Levels

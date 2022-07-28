@@ -1,6 +1,9 @@
 ## Azure Cache for Redis
 
 - What is Azure Cache for Redis?
+- Create Azure Resource - "Azure Cache for Redis"
+- Once created, copy Primary connection string from section - "Access Keys"
+- Connect to Redis Console
 - Redis Console Commands
 ```
 set myNum 100
