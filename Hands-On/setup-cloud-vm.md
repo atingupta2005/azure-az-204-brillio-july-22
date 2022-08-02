@@ -12,10 +12,12 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install -y googlechrome
 choco install -y microsoft-edge
 choco install -y microsoftazurestorageexplorer
+choco install -y postman
 ```
 
 ## Clone Git Repo
 ```
+cd \
 git clone https://github.com/atingupta2005/azure-az-204-brillio-july-22
 cd azure-az-204-brillio-july-22
 explorer .
